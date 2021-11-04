@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body  {
     background-image: url("Pizza1.jpg");
     background-position: center;
@@ -54,3 +55,29 @@ width: 300px;
 padding: 25px;
 font-size: 20px;
 }
+=======
+#fullForm{
+height: 1000px;
+width: 500px;
+
+margin: auto;
+background:linear-gradient(90deg, rgba(92,141,244,1) 0%, rgba(230,151,249,1) 50%, rgba(92,141,244,1) 100%);
+padding: 80px;
+
+}
+
+.sectionOne{
+    float: left;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 600;
+}
+
+>>>>>>> f92258ebeeb08e84fe59a24995029a613f34cb8a
