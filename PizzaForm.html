@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="pizza.css" />
+  </head>
+  <body>
+    <div id="fullForm">
+      <div>
+        <h1>KFC's Pizza Delivery</h1>
+        <br />
+        <h3>Online Order Form</h3>
+      </div>
+      <div>
+        <form action="">
+          <div>
+            <div>
+              <label for="name">Name: </label>
+              <input type="text" id="name" placeholder="name" />
+              <br />
+              <br />
+              <label for="address">Address: </label>
+              <input type="text" id="address" placeholder="address" />
+              <br />
+              <br />
+              <label for="town">Town City: </label>
+              <input type="text" id="town" placeholder="town or city" />
+              <br />
+              <br />
+              <label for="postcode">Postcode: </label>
+              <input
+                type="number"
+                name="postcode"
+                id="postcode"
+                placeholder="postcode"
+              />
+            </div>
+            <br />
+
+            <div>
+              <label for="telephone">Tel: </label>
+              <input
+                type="tel"
+                name=""
+                id="telephone"
+                placeholder="telephone"
+              />
+              <br />
+              <br />
+              <label for="email">Email: </label>
+              <input type="email" name="email" id="email" placeholder="email" />
+            </div>
+          </div>
+          <br />
+          <br />
+          <h3>* Required Filed</h3>
+
+          <div>
+            <div>
+              <fieldset>
+                <legend>Topping</legend>
+                <input type="radio" id="one" name="fav_language" value="ONE" />
+                  <label for="one">ONE</label><br />
+                 
+                <input type="radio" id="two" name="fav_language" value="TWO" />
+                  <label for="two">TWO</label><br />
+                 
+                <input
+                  type="radio"
+                  id="three"
+                  name="fav_language"
+                  value="THREE"
+                />
+                  <label for="three">THREE</label>
+                <br />
+              </fieldset>
+            </div>
+            <div>
+              <fieldset>
+                <legend>Size</legend>
+                <input type="radio" id="one" name="fav_language" value="ONE" />
+                  <label for="one">ONE</label><br />
+                 
+                <input type="radio" id="two" name="fav_language" value="TWO" />
+                  <label for="two">TWO</label><br />
+                 
+                <input
+                  type="radio"
+                  id="three"
+                  name="fav_language"
+                  value="THREE"
+                />
+                  <label for="three">THREE</label>
+                <br />
+              </fieldset>
+            </div>
+            <div>
+              <fieldset>
+                <legend>Extra</legend>
+                <input
+                  type="checkbox"
+                  id="one"
+                  name="fav_language"
+                  value="ONE"
+                />
+                  <label for="one">ONE</label><br />
+                 
+                <input
+                  type="checkbox"
+                  id="two"
+                  name="fav_language"
+                  value="TWO"
+                />
+                  <label for="two">TWO</label><br />
+                 
+                <input
+                  type="checkbox"
+                  id="three"
+                  name="fav_language"
+                  value="THREE"
+                />
+                  <label for="three">THREE</label><br />
+                <input
+                  type="checkbox"
+                  id="four"
+                  name="fav_language"
+                  value="FOUR"
+                />
+                  <label for="four">FOUR</label>
+                <br />
+              </fieldset>
+            </div>
+          </div>
+          <br />
+          <br />
+          <label for="deliverytime">Preferred Delivery Time: </label>
+          <input type="time" name="deliverytime" id="deliverytime" />
+          <br />
+          <br />
+          <label for="description"></label>
+          <textarea
+            name="message"
+            id="description"
+            style="width: 200px; height: 80px"
+            placeholder="delivery instructions"
+          ></textarea>
+          <br />
+          <br />
+          <input class="btn" type="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
